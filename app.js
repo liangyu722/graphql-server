@@ -11,7 +11,7 @@ app.use('/graphql', graphqlHTTP({
 
 }))
 
-mongoose.connect('mongodb+srv://liangyu42087:132087@cluster0-m1ngw.mongodb.net/test?retryWrites=true&w=majority', 
+mongoose.connect('mongodb+srv://liangyu722:132087@cluster0-qec5u.mongodb.net/test?retryWrites=true&w=majority', 
 {useUnifiedTopology: true, useNewUrlParser: true})
 mongoose.connection.once('open', () => {
     console.log('Yes, we are connected')
